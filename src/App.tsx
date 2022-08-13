@@ -15,25 +15,25 @@ const posts = [
       role: 'Web Developer'
     },
     content: [
-      { type: 'paragraph', content: 'Fala galera 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'paragraph', content: 'Eai rapaziada' },
+      { type: 'paragraph', content: 'Dá uma olhada no meu portifólio que acabei de subir' },
+      { type: 'link', content: 'chelfonseca' },
     ],
-    publishedAt: new Date('2022-05-03 20:00:00'),
+    publishedAt: new Date('2022-08-13 20:00:00'),
   },
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/chelFonseca.png',
+      avatarUrl: 'https://github.com/chelfonseca.png',
       name: 'Chel Fonseca',
       role: 'Web Developer'
     },
     content: [
       { type: 'paragraph', content: 'Fala rapaziada' },
       { type: 'paragraph', content: 'Olha o meu Portifolio' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'link', content: 'chelfonseca' },
     ],
-    publishedAt: new Date('2022-05-10 20:00:00'),
+    publishedAt: new Date('2022-08-13 17:00:00'),
   },
 ];
 

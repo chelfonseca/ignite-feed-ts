@@ -11,20 +11,19 @@ interface Author {
     avatarUrl: string;
 }
 interface Content {
-    type: 'paragraph' | 'link'
+    type: string;
     content: string;
 }
 interface PostProps {
     author: Author;
     publishedAt: Date;
-    content: Content;
+    content: Content[];
 }
+
 
 export function Post({ author, publishedAt, content}: PostProps) {
 
-    const [comments, setComments] = useState([
-        'Post muito loco'
-    ]);
+    const [comments, setComments] = useState<string[]>([]);
 
     const [newCommentText, setNewCommentText] = useState('');
 
